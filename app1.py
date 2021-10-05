@@ -5,7 +5,6 @@ from pywebio.output import put_text
 def bmi():
     height = input("Input your height(cm)：", type=FLOAT)
     weight = input("Input your weight(kg)：", type=FLOAT)
-    age=input("Input your age in(yrs):")
 
     BMI = weight / (height / 100) ** 2
 
